@@ -1,0 +1,81 @@
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {}
+
+/* Large screens ----------- */
+@media only screen and (max-width : 1440px) {
+	.header-top {padding-top: 10px;}
+	.swiper-container {height: 460px;}
+	section {padding: 15px 0;}
+	.credential_forms {margin-top: 35px;}
+	.credential_forms form,  .student_signup form {padding: 30px 0;}
+	.form-group, .checkbox {margin-bottom: 20px;}
+	.right_section .form-horizontal .form-group {margin-bottom: 20px;}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (max-width : 1366px) {}
+@media only screen and (max-width : 1200px) {
+	.navbar-form .input-group > .form-control {min-width: 230px;}
+}
+@media only screen and (max-width : 1170px) {
+	.navbar-nav > li:first-child {margin-right: 20px;}
+	.navbar-nav > li:nth-child(2) {margin-right: 20px;}
+}
+@media only screen and (max-width : 1024px) {}
+@media only screen and (max-width : 991px) {
+	/*-- MOBILE MENU CSS--*/
+	.navbar-brand {margin-left: 30px !important;}
+	.navbar-brand > img {max-width: 175px;}
+	.navbar-header {float: none;}
+	.navbar-toggle {display: block;margin-top: 25px;}
+	.navbar-collapse {border-top: 1px solid transparent;box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);}
+	.navbar-collapse.collapse {display: none!important;}
+	.navbar-nav {float: none!important;margin: 7.5px -15px;}
+	.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {margin-left: -15px;margin-right: -15px;}
+	.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {margin-left: 0px;}
+	.navbar-nav > li {float: none;}
+	.navbar-collapse.collapse.in {display: block!important;}
+	.collapsing {overflow: hidden!important;}
+	.navbar-nav .open .dropdown-menu {background-color: transparent;border: 0 none;box-shadow: none;float: none;margin-top: 0;position: static;width: auto;}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {color: #777;}
+	.navbar-nav .open .dropdown-menu > li > a {line-height: 20px;}
+	.navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu > li {padding: 5px 0px;}
+	.navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu > li > a {padding: 0px;}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {background-color: transparent;color: #1376d7;}
+	/*-- /MOBILE MENU CSS--*/
+	.navbar-nav > li {margin: 0;padding: 12px 15px;}
+	.subscribe p {font-size: 32px;}
+	.subscribe p a.btn-blue {margin-left: 30px;}
+	.swiper-slide .title {font-size: 38px;}
+	.swiper-slide .subtitle {font-size: 21px;}
+	.navbar-nav > li .dropdown-menu > li > a {white-space:initial; }
+	.swiper-button-prev, .swiper-button-next {height: 32px;width: 26px;margin-top: -16px;}
+	.right_section {width: 100%;}
+	.right_section .form-horizontal {margin: 0 auto;}
+	.left_panel {position: absolute;top: 0;left: 0;z-index: 9;margin-left: -290px;transition: left 0.75s cubic-bezier(0.23, 1, 0.32, 1) 0s;box-shadow: 0 5px 12px #000;}
+	.btn_panel {display: block;}
+	.left_menu {margin-top: 35px;}
+}
+
+/* Tab ----------- */
+@media only screen and (max-width : 768px) {}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 767px) {
+	body {margin-bottom: 240px;}
+	.mrg-btm-20-xs {margin-bottom: 20px;}
+	.student_signup form > .form-group > div:first-child {margin-bottom: 20px;}
+	.social-icon {float: left!important;}	
+}
+@media only screen and (max-width : 660px) {
+	.swiper-container {height: 220px;}
+	.swiper-slide .title {font-size: 32px;padding-top: 45px;}
+	.swiper-slide .subtitle {display: none;}
+}
+@media only screen and (max-width : 480px) {
+	.swiper-slide .title {font-size: 24px;padding-top: 35px;}
+	.subscribe p a.btn-blue {margin-top: 20px;margin-left: 0;}	
+	.checkbox label, .radio label {font-size: 14px;}
+	.student_signup form > .form-group > div {padding: 0 30px;}
+}
+@media only screen and (max-width : 320px) {}
